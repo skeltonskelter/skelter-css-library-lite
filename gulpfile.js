@@ -4,6 +4,9 @@
 // npm install gulp gulp-sass sass --save-dev
 // -to install gulp, gulp-sass for compiling and sass package to package.json as dev dependencies.
 
+// gulp
+// -to execute gulp.
+
 const { src, dest, watch, series } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const purgecss = require("gulp-purgecss");
